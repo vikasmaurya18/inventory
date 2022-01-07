@@ -1,0 +1,21 @@
+.heading {
+    background: #FFFFFF;
+    width: 100%;
+}
+.card {
+    position:relative;
+    border: none;
+}
+#prod-avail {
+    position: absolute;
+    background: transparent; 
+    color: white; 
+    width: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+}
+#prod-avail:hover {
+    background-color: black;
+    color: white;
+}

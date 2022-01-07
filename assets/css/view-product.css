@@ -1,0 +1,18 @@
+.img-box {
+    background-color: brown;
+    text-align: center;
+    float: none;
+}
+.img-prod {
+    width: 100%;  
+}
+@media (min-width: 576px) {
+    .img-prod {
+        width: 50%;
+    }
+}
+@media (min-width: 768px) {
+    .img-prod {
+        width: 80%;
+    }
+}
