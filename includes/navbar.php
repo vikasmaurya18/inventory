@@ -26,18 +26,21 @@
                         </div>
                         </li>
                         <li class="nav-item dropdown ml-2">
-                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                        <strong>More</strong>
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                <strong>More</strong>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link text-white" href="#"><i class="fa fa-shopping-cart"></i> <strong>Cart</strong></a>
+                            <a class="nav-link text-white" href="add-product.php"><i class="fa fa-plus"></i> <strong>Add Product</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#"><i class="fa fa-shopping-cart"></i> <strong>Cart</strong></a>
                         </li>
                     </ul>
                 </div>
