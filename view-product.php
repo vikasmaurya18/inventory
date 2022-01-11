@@ -2,17 +2,19 @@
 
 ?>
 <?php include 'includes/header.php'; ?>
-<link rel="stylesheet" href="assets/css/add-product.css">
+<link rel="stylesheet" href="assets/css/navbar.css">
+<link rel="stylesheet" href="assets/css/view-product.css">
 <?php include 'includes/navbar.php'; ?>
 
     <!-- Body Section -->
     <div class="body-bg">
         <div class="prod-details m-5 bg-white">
         <div class="row">
-            <div class="col-5">
-                <img src="12.jpg" alt="">
+            <div class="col-md-7 col-lg-6 img-box pt-3">
+                <img src="https://rukminim1.flixcart.com/image/416/416/kvcpn680/mug/j/k/g/coffee-program-11oz-coffee-mug-nerd-engineer-idea-for-men-original-imag89sczx9frpby.jpeg?q=70" alt="" class="img-prod">
+                <!-- <span id="prod-avail">100</span>  -->
             </div>
-            <div class="col-7 bg-white">
+            <div class="col-md-7 col-lg-6 bg-white">
                 <h4>PASHUPATASTRA Trust Me I'm an Engineer, Ceramic White Coffee, Birthday Gift, Engineers Gifts Idea, Printed Ceramic Coffee Mug  (330 ml)</h4>
                 <p class="my-3" style="font-size: 25px;"><strong>&#x20b9 1500</strong></p>
                 <div class="offers my-3">

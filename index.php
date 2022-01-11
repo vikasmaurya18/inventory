@@ -4,7 +4,8 @@ $db = new DB();
 $product = $db->fetch('products'); 
 ?>
 <?php include 'includes/header.php'; ?>
-<link rel="stylesheet" href="assets/css/add-product.css">
+<link rel="stylesheet" href="assets/css/navbar.css">
+<link rel="stylesheet" href="assets/css/index.css">
 <?php include 'includes/navbar.php'; ?>
     <!-- Body Section -->
     <div class="body-bg m-2">
@@ -28,5 +29,4 @@ $product = $db->fetch('products');
     </div>
 
 
-<script src="assets/js/script.js"></script>
 <?php include 'includes/footer.php'; ?>
