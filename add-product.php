@@ -7,7 +7,7 @@
     <!-- Body Section -->
     <div class="body-bg">
         <div class="card mx-auto my-5 w-50 p-4 shadow">
-            <form action="functions/add-product.php" method="POST">
+            <form action="functions/add-product.php" method="POST" enctype="multipart/form-data">
                 <h2 class="my-3">Add products to your website</h2>
                 <div class="form-group">
                     <label for="">Image of the product</label>
